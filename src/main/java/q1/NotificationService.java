@@ -10,6 +10,7 @@ public class NotificationService {
 
     public static NotificationService getInstance() {
         // TODO:
+        NotificationService notificationService = new NotificationService();
         // Ensure only one instance is created
        return null;
     }
